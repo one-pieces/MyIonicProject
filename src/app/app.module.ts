@@ -13,6 +13,7 @@ import { ButtonsPage } from '../pages/buttons/buttons';
 import { CardsPage } from '../pages/cards/cards';
 import { CheckboxPage } from '../pages/checkbox/checkbox';
 import { DateTimePage } from '../pages/date-time/date-time';
+import { FabsPage } from '../pages/fabs/fabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -29,7 +30,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ButtonsPage,
     CardsPage,
     CheckboxPage,
-    DateTimePage
+    DateTimePage,
+    FabsPage
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ButtonsPage,
     CardsPage,
     CheckboxPage,
-    DateTimePage
+    DateTimePage,
+    FabsPage
   ],
   providers: [
     StatusBar,
