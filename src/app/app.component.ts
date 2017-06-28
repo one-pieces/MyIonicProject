@@ -8,6 +8,7 @@ import { ActionSheetsPage } from '../pages/action-sheets/action-sheets';
 import { AlertPage } from '../pages/alert/alert';
 import { BadgesPage } from '../pages/badges/badges';
 import { ButtonsPage } from '../pages/buttons/buttons';
+import { CardsPage } from '../pages/cards/cards';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -38,7 +39,8 @@ export class MyApp {
       { title: 'Action Sheets', component: ActionSheetsPage },
       { title: 'Alerts', component: AlertPage },
       { title: 'Badges', component: BadgesPage },
-      { title: 'Buttons', component: ButtonsPage }
+      { title: 'Buttons', component: ButtonsPage },
+      { title: 'Cards', component: CardsPage }
     ];
   }
 

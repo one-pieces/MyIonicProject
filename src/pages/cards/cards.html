@@ -1,0 +1,174 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>cards</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      Card Header
+    </ion-card-header>
+    <img src="../../assets/img/bjork-live.jpg">
+    
+    <ion-card-content>
+      <ion-card-title>
+        Bjork
+      </ion-card-title>
+      <p>Bjork first came to prominece as one of the lead vocalists of the avant pop</p>
+    </ion-card-content>
+  
+    <ion-item>
+      <ion-icon name="musical-notes" item-start style="color: #d03e84;"></ion-icon>
+      Albums
+      <ion-badge item-end>9</ion-badge>
+    </ion-item>
+  
+    <ion-item>
+      <ion-icon name="logo-twitter" item-start style="color: #55acee;"></ion-icon>
+      Followers
+      <ion-badge item-end>260K</ion-badge>
+    </ion-item>
+  </ion-card>
+  
+  <h4>Lists in Cards</h4>
+  <ion-card>
+    <ion-card-header>
+      Explore Nearby
+    </ion-card-header>
+    
+    <ion-list>
+      <button ion-item>
+        <ion-icon name="cart" item-start></ion-icon>
+        Shopping
+      </button>
+      <button ion-item>
+        <ion-icon name="medical" item-start></ion-icon>
+        Hospital
+      </button>
+      <button ion-item>
+        <ion-icon name="cafe" item-start></ion-icon>
+        Cafe
+      </button>
+      <button ion-item>
+        <ion-icon name="paw" item-start></ion-icon>
+        Dog Park
+      </button>
+      <button ion-item>
+        <ion-icon name="beer" item-start></ion-icon>
+        Pub
+      </button>
+      <button ion-item>
+        <ion-icon name="planet" item-start></ion-icon>
+        Space
+      </button>
+    </ion-list>
+  </ion-card>
+  
+  <h4>Images in Cards</h4>
+  <ion-card>
+    <img src="../../assets/img/nin-live.png"/>
+    <ion-card-content>
+      <ion-card-title>
+        Nine Inch Nails Live
+      </ion-card-title>
+      <p>
+        The most popular industrial group ever, and largely
+        responsible for bringing the music to a mass audience.
+      </p>
+    </ion-card-content>
+    <ion-row no-padding>
+      <ion-col>
+        <button ion-button clear small color="danger" icon-start>
+          <ion-icon name="star"></ion-icon>
+          Favorite
+        </button>
+      </ion-col>
+      <ion-col text-center>
+        <button ion-button clear small color="danger" icon-start>
+          <ion-icon name="musical-notes"></ion-icon>
+          Listen
+        </button>
+      </ion-col>
+      <ion-col text-right>
+        <button ion-button clear small color="danger" icon-start>
+          <ion-icon name="share-alt"></ion-icon>
+          Share
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  
+  <h4>Background images</h4>
+  <ion-card>
+    <img src="../../assets/img/card-saopaolo.png">
+    <div class="op-card-title">São Paulo</div>
+    <div class="op-card-subtitle">41 Listings</div>
+  </ion-card>
+  
+  <h4>Advanced Cards</h4>
+  <h6>Social Cards</h6>
+  <ion-card>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="../../assets/img/marty-avatar.png">
+      </ion-avatar>
+      <h2>Marty McFly</h2>
+      <p>Navember 5, 1955</p>
+    </ion-item>
+    <img src="../../assets/img/advance-card-bttf.png">
+    
+    <ion-card-content>
+      <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>
+    </ion-card-content>
+    
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>12 Likes</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="text"></ion-icon>
+          <div>4 Comments</div>
+        </button>
+      </ion-col>
+      <ion-col align-self-center text-center>
+        <ion-note>11h ago</ion-note>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <h6>Map Cards</h6>
+  <ion-card>
+    <img src="../../assets/img/advance-card-map-madison.png">
+    <ion-fab right top>
+      <button ion-fab>
+        <ion-icon name="pin"></ion-icon>
+      </button>
+    </ion-fab>
+    <ion-item>
+      <ion-icon name="football" item-start large></ion-icon>
+      <h2>Museum of Football</h2>
+      <p>11 N. Way St, Madison, WI 53703</p>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="wine" item-left large></ion-icon>
+      <h2>Institute of Fine Cocktails</h2>
+      <p>14 S. Hop Avenue, Madison, WI 53703</p>
+    </ion-item>
+    <ion-item>
+      <span item-left>18 min</span>
+      <span item-left>(2.6 mi)</span>
+      <button ion-button icon-left clear item-end>
+        <ion-icon name="navigate"></ion-icon>
+        Start
+      </button>
+    </ion-item>
+  </ion-card>
+</ion-content>
