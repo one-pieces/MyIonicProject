@@ -12,6 +12,7 @@ import { CardsPage } from '../pages/cards/cards';
 import { CheckboxPage } from '../pages/checkbox/checkbox';
 import { DateTimePage } from '../pages/date-time/date-time';
 import { FabsPage } from '../pages/fabs/fabs';
+import { GesturesPage } from '../pages/gestures/gestures';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -46,7 +47,8 @@ export class MyApp {
       { title: 'Cards', component: CardsPage },
       { title: 'Checkbox', component: CheckboxPage },
       { title: 'DateTime', component: DateTimePage },
-      { title: 'FABs', component: FabsPage }
+      { title: 'FABs', component: FabsPage },
+      { title: 'Gestures', component: GesturesPage }
     ];
   }
 
