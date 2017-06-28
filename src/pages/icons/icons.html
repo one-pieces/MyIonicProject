@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>checkbox</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <h4>Basic Usage</h4>
+  <p>
+    <ion-icon name="heart"></ion-icon>
+  </p>
+  
+  <h4>Active/Inactive Icons</h4>
+  <p>
+    <ion-icon name="heart"></ion-icon>
+    <ion-icon name="heart" isActive="true"></ion-icon>
+  </p>
+  
+  <h4>Platform Specific Icons</h4>
+  <p>
+    <ion-icon ios="logo-apple" md="logo-android"></ion-icon>
+  </p>
+  
+  <h4>Variable Icons</h4>
+  <p>
+    <ion-icon [name]="myIcon"></ion-icon>
+  </p>
+</ion-content>

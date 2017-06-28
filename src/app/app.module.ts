@@ -16,6 +16,7 @@ import { DateTimePage } from '../pages/date-time/date-time';
 import { FabsPage } from '../pages/fabs/fabs';
 import { GesturesPage } from '../pages/gestures/gestures';
 import { GridPage } from '../pages/grid/grid';
+import { IconsPage } from '../pages/icons/icons';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -35,7 +36,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DateTimePage,
     FabsPage,
     GesturesPage,
-    GridPage
+    GridPage,
+    IconsPage
   ],
   imports: [
     BrowserModule,
@@ -56,7 +58,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DateTimePage,
     FabsPage,
     GesturesPage,
-    GridPage
+    GridPage,
+    IconsPage
   ],
   providers: [
     StatusBar,
