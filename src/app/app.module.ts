@@ -25,6 +25,7 @@ import { NavigationPage, NavigationDetailsPage } from '../pages/navigation/navig
 import { PopoverBasicPage, PopoverPage } from '../pages/popover/popover';
 import { RadioPage } from '../pages/radio/radio';
 import { RangePage } from '../pages/range/range';
+import { SearchbarPage } from '../pages/searchbar/searchbar';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -56,7 +57,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PopoverBasicPage,
     PopoverPage,
     RadioPage,
-    RangePage
+    RangePage,
+    SearchbarPage
   ],
   imports: [
     BrowserModule,
@@ -89,7 +91,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PopoverBasicPage,
     PopoverPage,
     RadioPage,
-    RangePage
+    RangePage,
+    SearchbarPage
   ],
   providers: [
     StatusBar,
