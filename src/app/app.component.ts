@@ -20,6 +20,7 @@ import { ListsPage } from '../pages/lists/lists';
 import { LoadingPage } from '../pages/loading/loading';
 import { ModalsPage } from '../pages/modals/modals';
 import { NavigationPage } from '../pages/navigation/navigation';
+import { PopoverBasicPage } from '../pages/popover/popover';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -62,7 +63,8 @@ export class MyApp {
       { title: 'Lists', component: ListsPage },
       { title: 'Loading', component: LoadingPage },
       { title: 'Modals', component: ModalsPage },
-      { title: 'Navigation', component: NavigationPage }
+      { title: 'Navigation', component: NavigationPage },
+      { title: 'Popover', component: PopoverBasicPage }
     ];
   }
 
