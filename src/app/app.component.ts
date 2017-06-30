@@ -22,6 +22,7 @@ import { ModalsPage } from '../pages/modals/modals';
 import { NavigationPage } from '../pages/navigation/navigation';
 import { PopoverBasicPage } from '../pages/popover/popover';
 import { RadioPage } from '../pages/radio/radio';
+import { RangePage } from '../pages/range/range';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -66,7 +67,8 @@ export class MyApp {
       { title: 'Modals', component: ModalsPage },
       { title: 'Navigation', component: NavigationPage },
       { title: 'Popover', component: PopoverBasicPage },
-      { title: 'Radio', component: RadioPage }
+      { title: 'Radio', component: RadioPage },
+      { title: 'Range', component: RangePage }
     ];
   }
 
