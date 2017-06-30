@@ -20,6 +20,7 @@ import { IconsPage } from '../pages/icons/icons';
 import { InputsPage } from '../pages/inputs/inputs';
 import { ListsPage } from '../pages/lists/lists';
 import { LoadingPage } from '../pages/loading/loading';
+import { ModalsPage, ModalContentPage } from '../pages/modals/modals';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -43,7 +44,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     IconsPage,
     InputsPage,
     ListsPage,
-    LoadingPage
+    LoadingPage,
+    ModalsPage,
+    ModalContentPage
   ],
   imports: [
     BrowserModule,
@@ -68,7 +71,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     IconsPage,
     InputsPage,
     ListsPage,
-    LoadingPage
+    LoadingPage,
+    ModalsPage,
+    ModalContentPage
   ],
   providers: [
     StatusBar,

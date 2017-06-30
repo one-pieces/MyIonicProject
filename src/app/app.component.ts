@@ -18,6 +18,7 @@ import { IconsPage } from '../pages/icons/icons';
 import { InputsPage } from '../pages/inputs/inputs';
 import { ListsPage } from '../pages/lists/lists';
 import { LoadingPage } from '../pages/loading/loading';
+import { ModalsPage } from '../pages/modals/modals';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -58,7 +59,8 @@ export class MyApp {
       { title: 'Icons', component: IconsPage },
       { title: 'Inputs', component: InputsPage },
       { title: 'Lists', component: ListsPage },
-      { title: 'Loading', component: LoadingPage }
+      { title: 'Loading', component: LoadingPage },
+      { title: 'Modals', component: ModalsPage }
     ];
   }
 
