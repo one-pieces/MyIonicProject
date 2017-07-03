@@ -27,6 +27,7 @@ import { RadioPage } from '../pages/radio/radio';
 import { RangePage } from '../pages/range/range';
 import { SearchbarPage } from '../pages/searchbar/searchbar';
 import { SegmentPage } from '../pages/segment/segment';
+import { SelectPage } from '../pages/select/select';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -60,7 +61,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RadioPage,
     RangePage,
     SearchbarPage,
-    SegmentPage
+    SegmentPage,
+    SelectPage
   ],
   imports: [
     BrowserModule,
@@ -95,7 +97,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RadioPage,
     RangePage,
     SearchbarPage,
-    SegmentPage
+    SegmentPage,
+    SelectPage
   ],
   providers: [
     StatusBar,
