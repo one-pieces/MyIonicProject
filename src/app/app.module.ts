@@ -30,6 +30,7 @@ import { SegmentPage } from '../pages/segment/segment';
 import { SelectPage } from '../pages/select/select';
 import { SlidesPage } from '../pages/slides/slides';
 import { TabsPage, TabContentPage } from '../pages/tabs/tabs';
+import { ToastPage } from '../pages/toast/toast';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -67,7 +68,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SelectPage,
     SlidesPage,
     TabsPage,
-    TabContentPage
+    TabContentPage,
+    ToastPage
   ],
   imports: [
     BrowserModule,
@@ -106,7 +108,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SelectPage,
     SlidesPage,
     TabsPage,
-    TabContentPage
+    TabContentPage,
+    ToastPage
   ],
   providers: [
     StatusBar,

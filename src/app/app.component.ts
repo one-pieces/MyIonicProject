@@ -28,6 +28,7 @@ import { SegmentPage } from '../pages/segment/segment';
 import { SelectPage } from '../pages/select/select';
 import { SlidesPage } from '../pages/slides/slides';
 import { TabsPage } from '../pages/tabs/tabs';
+import { ToastPage } from '../pages/toast/toast';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -78,7 +79,8 @@ export class MyApp {
       { title: 'Segment', component: SegmentPage },
       { title: 'Select', component: SelectPage },
       { title: 'Slides', component: SlidesPage },
-      { title: 'Tabs', component: TabsPage }
+      { title: 'Tabs', component: TabsPage },
+      { title: 'Toast', component: ToastPage }
     ];
   }
 
